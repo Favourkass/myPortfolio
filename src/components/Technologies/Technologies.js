@@ -1,0 +1,49 @@
+import React from 'react';
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+
+const Technologies = () =>  (
+  <Section id='tech'>
+    <SectionDivider />
+    <br/> 
+    <SectionTitle>Technologies</SectionTitle>
+    <SectionText>
+      I have worked with the following technologies in the web development world:
+    </SectionText>
+    <List>
+      <ListItem>
+        <DiReact size ='3rem' />
+        <ListContainer>
+          <ListTitle>Front-End </ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.Js, Bootstrap, Redux, Styled  Components, HTML5, CSS.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size ='3rem' />
+        <ListContainer>
+          <ListTitle>Backend-End </ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Python, Django, DjangoRestFramework, GraphQL, PostgreSQL
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiZend size ='3rem' />
+        <ListContainer>
+          <ListTitle>Other Technologies</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Git, CICD, Docker, AWS, Heroku, Jira,
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+  </Section>
+);
+
+export default Technologies;
