@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
+  {
+    title: 'expense tracker react app',
+    description: "a simple react redux app that enables you to list out your expenses",
+    image: '/images/xspensr.png',
+    tags: ['react', 'redux', 'CSS', 'Javascript', 'Bootstrap'],
+    source: 'https://github.com/Favourkass/xpensr.git',
+    visit: 'https://xpens0r.netlify.app/',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
